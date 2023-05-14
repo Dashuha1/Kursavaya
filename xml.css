@@ -1,0 +1,8 @@
+@charset "utf-8";
+data{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5f6e91;
+}
+data:hover{
+    color: #ffffff;
+}

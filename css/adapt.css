@@ -1,0 +1,276 @@
+
+@media (max-width: 1330px){
+    
+.photos2>img{
+    width: 300px;
+    margin: 2%;
+    border-radius: 20px;
+  }
+  
+.text>p {
+    font-family: CALIBRI;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1210px){
+   
+.center>p {
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    font-size: 25px;
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    color: #ffffff;
+    font-family: arial black;
+  }
+    .photos2>img{
+        width: 250px;
+        margin: 1.5%;
+        border-radius: 20px;
+      }
+}
+
+@media (max-width: 1100px){
+
+    .main_section1 { 
+        display: flex;
+        width: 80%;
+        margin: 10% 10% 18% 10%;
+        flex-direction: column;
+        background-color: #edd1b0
+      }
+   
+}
+@media (max-width: 910px){
+       
+.photos2>img{
+    width: 200px;
+    margin: 1%;
+    border-radius: 20px;
+  }
+  
+.text>h1 {
+    font-size: 35px;
+    font-family: AMAZE;
+  }
+.text>p {
+    font-family: CALIBRI;
+    font-size: 17px;
+  }
+
+  
+}
+@media (max-width: 800px){
+       
+.center>p {
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    font-size: 20px;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    color: #ffffff;
+    font-family: arial black;
+  }
+}
+@media (max-width: 740px) {
+      
+    .center>p {
+        text-align: center;
+        margin: auto;
+        z-index: 1;
+        font-size: 15px;
+        position: absolute;
+        left: 20%;
+        top: 70%;
+        color: #ffffff;
+        font-family: arial black;
+        
+      }
+   
+.text {
+    width: 94%;
+}  
+.main_section1 { 
+    display: flex;
+    width: 100%;
+    margin: 10% 0% 18% 0%;
+    flex-direction: column;
+    background-color: #edd1b0
+  }
+.musee {
+    background: #edd1b0;
+    
+   
+    display: flex;
+    flex-direction: column;
+  }
+        
+.photos2>img{
+    width: 500px;
+    margin: 3% 0%;
+    border-radius: 20px;
+  }
+  
+.photos2 {
+    flex-direction: column;
+    display: flex;
+    margin: 1% 15%;
+  
+  }
+  
+.main_section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color:#edd1b0;
+   
+  }
+  
+.main_section3 { 
+    display: flex;
+    width: 100%;
+    margin:auto;
+    flex-direction: column;
+    background-color: #edd1b0
+  }
+  
+.main_footer{
+  width: 80%;
+  background-color: #fff;
+  margin: 5%;
+  padding: 5%;
+    box-shadow: 12px 12px 2px 1px #9b8266;
+  border-radius: 20%;
+}
+
+}
+@media (max-width: 600px){
+       
+  .photos2>img{
+    width: 400px;
+    margin: 3% 0%;
+    border-radius: 20px;
+  }
+  .photos{
+    gap: 25px;
+    width: 100%;
+  }
+.photos2 {
+    flex-direction: column;
+    display: flex;
+    margin: 1% 12%;
+  
+  }
+}
+@media (max-width: 440px){
+       
+  .photos2>img{
+    width: 300px;
+    margin: 3% 0%;
+    border-radius: 20px;
+  }
+  
+.photos2 {
+    flex-direction: column;
+    display: flex;
+    margin: 1% 11%;
+  
+  }
+  .photos{
+    gap: 25px;
+    width: 98%;
+  }
+}
+@media (max-width: 365px){
+    
+.photos2 {
+  flex-direction: column;
+  display: flex;
+  margin: 1% 9%;
+
+}
+.photos{
+  gap: 18px;
+ padding: 1%;
+ width: 100%;
+}
+}
+@media (max-width: 350px){
+       
+  .photos2>img{
+    width: 250px;
+    margin: 3% 0%;
+    border-radius: 20px;
+  }
+  
+.photos2 {
+    flex-direction: column;
+    display: flex;
+    margin: 1% 12%;
+  
+  }
+  .center>p {
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    font-size: 12px;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    color: #ffffff;
+    font-family: arial black;
+    
+  }
+  .photos{
+    gap: 15px;
+   padding: 1%;
+  }
+}
+@media (max-width: 310px){
+   
+.photos2 {
+  flex-direction: column;
+  display: flex;
+  margin: 1% 10%;
+
+}
+
+.center>p {
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  font-size: 12px;
+  position: absolute;
+  left: 8%;
+  top: 70%;
+  color: #ffffff;
+  font-family: arial black;
+  
+}
+
+.text>h1 {
+  font-size: 30px;
+  font-family: AMAZE;
+}
+}
+@media (max-width: 280px){
+      
+  .photos2>img{
+    width: 200px;
+    margin: 3% 0%;
+    border-radius: 20px;
+  }
+  
+.photos2 {
+    flex-direction: column;
+    display: flex;
+    margin: 1% 12%;
+  
+  }
+}

@@ -1,0 +1,359 @@
+
+body{
+    background-color: #edd1b0;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .parallax_img1 {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/paint.jpg); }
+  
+
+.main_section1{
+    width: 80%;
+    margin: 0% 10%;
+    color: #1a0f04;
+   display: flex;
+   flex-direction: column;
+   background-color: #edd1b0;
+}
+.main_section2{
+    width: 80%;
+    margin: 0% 10%;
+    color: #1a0f04;
+   display: flex;
+   flex-direction: column;
+   background-color: #edd1b0;
+
+}
+.main_section3{
+    width: 80%;
+    margin: 0% 10%;
+   
+   display: flex;
+   flex-direction: column;
+   background-color: #edd1b0;
+   color: #1a0f04;
+}
+
+.main_section4{
+    width: 80%;
+    margin: 0% 10%;
+   
+   display: flex;
+  flex-direction: column;
+  background-color: #edd1b0;
+  color: #1a0f04;
+}
+.main_section5{
+    width: 80%;
+    margin: 0% 10%;
+   
+   display: flex;
+   flex-direction: column;
+   background-color: #edd1b0;
+   color: #1a0f04;
+
+}
+
+.main_section6{
+    width: 80%;
+    margin: 0% 10%;
+  
+   display: flex;
+   flex-direction: column;
+   background-color: #edd1b0;
+   color: #1a0f04;
+}
+
+.main_section7{
+    width: 80%;
+  margin: 0% 10%;
+   
+   display: flex;
+  flex-direction: column;
+  background-color: #edd1b0;
+  color: #1a0f04;
+
+}
+
+.src1{
+    height: 800px;
+   margin: 25% 1%;
+    display: flex;
+  
+}
+.src {
+    color: #1a0f04;
+    grid-area: src1;
+    margin: 5% 5%;
+    text-align:justify;
+}
+.src>ol>li>a{
+    color: #1a0f04;
+    text-decoration: none;
+}
+.src>ol>li>a:hover{
+    color: #2c3e50;
+}
+#gridd{
+    display: grid;
+    grid-template-areas: "src1 src " "src1 src " "src1 src " ;
+    grid-template-rows: 2% 20%;
+    grid-template-columns: 60% 15% ;
+    gap: 1%;
+margin:auto;
+}
+p{
+    display: block;
+    text-align:justify;
+    margin: 1em;
+    font-size: 21px;
+    text-indent: 1.5em;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 1em;
+}
+li{
+    margin-left: 1em;
+    font-size: 20px;
+}
+h1{
+    margin: 1em;
+    font-size: 30px;
+    text-align: center;
+}
+.grid{
+   
+    margin: 2em;
+    display: grid;
+    grid-template-areas: "first second " "third fourth " ;
+    grid-template-rows: 200px 200px ;
+    grid-template-columns: 200px 200px ;
+    gap: 40px;
+   
+    
+}
+.first >img{
+    grid-area: first;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+    
+}
+.first:hover{
+    filter: opacity(50%);
+    transform: scale(1.05); 
+}
+.second>img{
+    grid-area: second;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+    
+}
+.second:hover{
+    filter: opacity(50%);
+    transform: scale(1.05); 
+    
+}
+.third>img{
+    grid-area: third;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+    
+}
+.third:hover{
+    filter: opacity(50%);
+    transform: scale(1.05); 
+}
+.fourth>img{
+    grid-area: fourth;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+    
+}
+.fourth:hover{
+    filter: opacity(50%);
+    transform: scale(1.05); 
+}
+.center{
+    margin: 5% 3%;
+font-size: 20px;
+}
+.center1{
+    margin: 3% 10% 2%;
+font-size: 25px;
+}
+.photo{
+    
+   margin: 3%;
+    display: flex;
+    flex-direction: row;
+
+}
+.photo > img{
+    width: 30%;
+   margin: auto;
+  
+    border-radius: 20px;
+}
+.p{
+    margin: 5% 1%;
+    text-align: center;
+    font-size: 23px;
+}
+.photo1{
+    margin: 5% 1%;
+    display: flex;
+    flex-direction: row;
+}
+.photo1>img{
+    border-radius: 20px;
+    width: 30%;
+    
+    margin: auto;
+}
+.photo_grid{
+ margin: 5%;
+}
+.format{
+    display: flex;
+    margin: 3%;
+   flex-direction: row;
+    display: grid;
+    grid-template-areas: "grid_2 grid_1 grid_3" "grid_2 grid_1 grid_3" ;
+    grid-template-rows: 10% ;
+    grid-template-columns: 35% 30% 30% ;
+    gap: 2%;
+   
+    
+
+}
+.grid_1{
+    grid-area: grid_1;
+
+}
+
+.grid_3{
+    grid-area: grid_3;
+   
+}
+.grid_2{
+   
+    grid-area: grid_2;
+}
+.grid_1>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  
+  border-radius: 20px;
+}
+.grid_3>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ 
+  border-radius: 20px;
+}
+#obz{
+    display: flex;
+    flex-direction: row;
+}
+#obz>p{
+    width: 25%;
+    margin: 2% 4%;
+}
+#photos{
+    display: flex;
+    flex-direction: row;
+}
+#photos>img{
+  width: 25%;
+ margin: 2% 4%;
+ border-radius: 20px;
+}
+.decor{
+    display: flex;
+    flex-direction: row;
+ margin: 5%;
+}
+.main_section6>p{
+    text-align: center;
+}
+.decor>img{
+    width: 35% ;
+    margin: auto;
+    border-radius: 20px;
+}
+.grafic{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 5% 5% 8%;
+   
+    display: grid;
+    grid-template-areas:  "grafic_3 grafic_4" ;
+    grid-template-rows: 400px  ;
+    grid-template-columns: 45% 45%;
+    gap: 60px;
+   
+}
+.grafic_3{
+    grid-area: grafic_3;
+   
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+}
+.grafic_3>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.grafic_4{
+    grid-area: grafic_4;
+   
+    transition: all 0.1s linear 0s;
+    overflow: hidden; 
+    
+}
+.grafic_4>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.grafic_4:hover{
+     filter: opacity(50%);
+    transform: scale(1.05); 
+}
+.grafic_3:hover{
+    filter: opacity(50%);
+    transform: scale(1.05); 
+    
+}
+#graf{
+    text-align: center;
+}
+
+#iscus{
+    margin: 5% 1%;
+}
